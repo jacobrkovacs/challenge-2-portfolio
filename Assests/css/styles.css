@@ -8,6 +8,7 @@
 
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cadet-gray);
 }
 
 .main-header{
@@ -21,6 +22,7 @@
 }
 
 .main-header h1{
+    background-color: var(--rich-black);
     display: inline-block;
     font-size: 38px;
     color: var(--misty-rose);
@@ -28,10 +30,16 @@
     padding-left: 30px;
 }
 
+nav{
+    background-color: var(--rich-black);
+}
+
 nav ul{
+    background-color: var(--rich-black);
     list-style-type: none;
 }
 nav ul li{
+    background-color: var(--rich-black);
     display: inline-block;
 }
 
@@ -48,16 +56,25 @@ nav ul li{
 }
 
 
+
 .about{
     display: flex;
+    justify-content: space-between;
     height: 15%;
-    width: 800px;
     padding-top: 10%;
-    flex-direction: row-reverse;
-    align-items:center;
+    align-items: center;
+}
+
+.about h2{
+    padding: 0 5%;
+    margin-right: 2%;
+    line-height: 1400%;
+    border-right: 3px solid var(--rich-black);
 }
 
 .about p{
+    line-height: 150%;
+    padding: 0 5% 0 2%;
 }
 
 .about figure #portrait{
@@ -65,19 +82,35 @@ nav ul li{
     width: 300px;
     border: 3px solid var(--paynes-gray);
     border-radius: 50%;
+    /* padding-left: 30px; */
 }
 
 
 @media screen and (max-width: 960px){
     .main-header{
-        height: 150px;
+        height: 110px;
         flex-direction: column;
+        line-height: 10px;
     }
 
-    .about{
-        padding-top: 15%;
-    }
     .links a{
         padding: 0 30px;
     }
+
+    .about{
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .about h2{
+        border: none;
+        border-bottom: 3px solid var(--rich-black);
+        line-height: 100%;
+        margin: 150px 0 5% 0;
+        padding: 0 25% 50px 25%;
+    }
+
+
+
+    
 }
