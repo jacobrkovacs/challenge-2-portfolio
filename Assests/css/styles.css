@@ -1,5 +1,5 @@
 :root{
-    --rich-black: #0D1F2D;
+    --dark: #0D1F2D;
     --paynes-gray: #546A7B;
     --cadet-gray: #9EA3B0;
     --misty-rose: #FAE1DF;
@@ -16,13 +16,13 @@
     position: fixed;
     height: 75px;
     width: 100%;
-    background-color: var(--rich-black);
+    background-color: var(--dark);
     justify-content: space-between;
     align-items: center;
 }
 
 .main-header h1{
-    background-color: var(--rich-black);
+    background-color: var(--dark);
     display: inline-block;
     font-size: 38px;
     color: var(--misty-rose);
@@ -31,15 +31,15 @@
 }
 
 nav{
-    background-color: var(--rich-black);
+    background-color: var(--dark);
 }
 
 nav ul{
-    background-color: var(--rich-black);
+    background-color: var(--dark);
     list-style-type: none;
 }
 nav ul li{
-    background-color: var(--rich-black);
+    background-color: var(--dark);
     display: inline-block;
 }
 
@@ -55,8 +55,6 @@ nav ul li{
     color: var(--cadet-gray);
 }
 
-
-
 .about{
     display: flex;
     justify-content: space-between;
@@ -66,23 +64,25 @@ nav ul li{
 }
 
 .about h2{
+    color: var(--dark);
     padding: 0 5%;
     margin-right: 2%;
     line-height: 1400%;
-    border-right: 3px solid var(--rich-black);
+    border-right: 3px solid var(--dark);
 }
 
 .about p{
+    font-size: 115%;
+    color: var(--dark);
     line-height: 150%;
     padding: 0 5% 0 2%;
 }
 
 .about figure #portrait{
-    height: 300px;
-    width: 300px;
-    border: 3px solid var(--paynes-gray);
+    height: 280px;
+    width: 280px;
+    border: 3px solid var(--dark);
     border-radius: 50%;
-    /* padding-left: 30px; */
 }
 
 
@@ -104,7 +104,7 @@ nav ul li{
 
     .about h2{
         border: none;
-        border-bottom: 3px solid var(--rich-black);
+        border-bottom: 3px solid var(--dark);
         line-height: 100%;
         margin: 150px 0 5% 0;
         padding: 0 25% 50px 25%;
