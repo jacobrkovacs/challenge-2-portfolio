@@ -57,15 +57,15 @@ nav ul li{
 
 .about{
     display: flex;
-    justify-content: space-between;
-    height: 15%;
     padding-top: 10%;
     align-items: center;
 }
 
 .about h2{
+    width: 72px;
     color: var(--dark);
-    padding: 0 5%;
+    padding: 0 75px;
+    margin-left: 34px;
     margin-right: 2%;
     line-height: 1400%;
     border-right: 3px solid var(--dark);
@@ -83,6 +83,51 @@ nav ul li{
     width: 280px;
     border: 3px solid var(--dark);
     border-radius: 50%;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+}
+
+.work h2{
+    width: 107px;
+    color: var(--dark);
+    padding: 0 75px;
+    margin-right: 2%;
+    line-height: 1400%;
+    border-right: 3px solid var(--dark);
+}
+
+.work a{
+    text-decoration: none;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--dark);
+    margin: 3%;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    background-color: var(--dark);
+}
+
+.feature-card-header{
+    background-color: var(--dark);
+    /* padding: 0 60px;
+    border-radius: 40px 40px 0 0; */
+}
+
+.feature-card-header h3{
+    color: var(--misty-rose);
+    background-color: var(--dark);
+}
+
+.feature-card:hover{
+    box-shadow: 5px 5px 12px var(--dark)
 }
 
 
