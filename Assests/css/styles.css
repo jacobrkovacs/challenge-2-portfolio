@@ -65,8 +65,8 @@ nav ul li{
 .about h2{
     width: 72px;
     color: var(--dark);
-    padding: 0 75px;
-    margin-left: 34px;
+    padding: 0 4%;
+    margin-left: 2%;
     margin-right: 2%;
     line-height: 1400%;
     border-right: 3px solid var(--dark);
@@ -90,18 +90,16 @@ nav ul li{
     height: 350px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 10%;
     margin-bottom: 15%;
 }
 
 .work h2{
-    flex-shrink: 2;
-    width: 15%;
     color: var(--dark);
-    padding: 0 75px;
+    padding: 150px 4%;
     margin-right: 2%;
-    line-height: 500px;
+    margin-left: 3px;
     border-right: 3px solid var(--dark);
 }
 
@@ -220,6 +218,7 @@ nav ul li{
     .work{
         flex-direction: column;
         align-items: center;
+        justify-content: none;
     }
 
     .work h2{
@@ -227,7 +226,7 @@ nav ul li{
         border: none;
         border-bottom: 3px solid var(--dark);
         line-height: 100%;
-        margin: 15px 0 50px 0;
+        margin: 75px 0 50px 0;
         padding: 0 25% 50px 25%;
     }
 
