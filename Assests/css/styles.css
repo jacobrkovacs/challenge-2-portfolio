@@ -56,19 +56,19 @@ nav ul li{
 }
 
 .about{
+    height: 500px;
     display: flex;
     padding-top: 10%;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.about h2{
-    width: 72px;
+.title{
+    text-size-adjust: auto;
     color: var(--dark);
-    padding: 0 4%;
-    margin-left: 2%;
+    padding: 150px 4%;
     margin-right: 2%;
-    line-height: 1400%;
+    margin-left: 3px;
     border-right: 3px solid var(--dark);
 }
 
@@ -87,20 +87,11 @@ nav ul li{
 }
 
 .work{
-    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 10%;
     margin-bottom: 15%;
-}
-
-.work h2{
-    color: var(--dark);
-    padding: 150px 4%;
-    margin-right: 2%;
-    margin-left: 3px;
-    border-right: 3px solid var(--dark);
 }
 
 .work a{
@@ -219,6 +210,7 @@ nav ul li{
         flex-direction: column;
         align-items: center;
         justify-content: none;
+        margin-top: 350px;
     }
 
     .work h2{
