@@ -156,6 +156,12 @@ main{
     align-items: center;
 }
 
+.work-scrolling{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .little-card{
     justify-content: space-evenly;
     width: 400px;
@@ -163,7 +169,7 @@ main{
     border: 3px solid var(--dark);
     border-radius: 36.5px;
     background-color: var(--dark-gray);
-    margin: 20px 45px;
+    margin: 20px 20px;
 }
 
 .little-card h3{
@@ -195,10 +201,69 @@ main{
     transition: all 0.25s ease-in-out;
 }
 
+.arrow{
+    margin: 15px;
+    width: 35px;
+    height: 65px;
+    background-color: var(--dark-gray);
+    border: 1.5px solid var(--dark);
+    border-radius: 8px;
+}
+
+.arrow:hover{
+    width: 35px;
+    height: 65px;
+    border: 1.5px solid var(--dark);
+    border-radius: 8px;
+    box-shadow: 0 0 15px var(--dark);
+}
+
+.arrow:active{
+    width: 35px;
+    height: 65px;
+    border: 1.5px solid var(--dark);
+    border-radius: 8px;
+    box-shadow: inset 3px 3px 3px var(--dark);
+}
+
+/* #arrow-left{
+
+} */
+
+#arrow-right{
+    margin-right: 25px;
+}
+
 .contact{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    margin-left: 30%;
+}
+
+.textbox{
+    background-color: whitesmoke;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+footer img{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 0 18px;
 }
 
 @media screen and (max-width: 1175px){
@@ -254,6 +319,14 @@ main{
     #youtube{
         margin: 0;
         align-self: center;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        margin: 0;
     }
     
 }

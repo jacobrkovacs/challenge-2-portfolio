@@ -55,7 +55,9 @@
             <h2 class="section-title">My Work</h2>
             
             <a id="challenge" target="_blank" href="https://jacobrkovacs.github.io/challenge-1-semantic-html/">
-                <section class="feature-card card-effect">
+
+                <div class="feature-card card-effect">
+
                     <header class="feature-card-header">
                         <h3>Bootcamp Challenge #1: Semantic HTML</h3>
                     </header>
@@ -67,54 +69,85 @@
                     <p>
                         This assignment taught me the importance of accessibility and search engine optimization of web pages. It also helped me become familiar with semantic HTML.
                     </p>
-                </section>
+
+                </div>
+
             </a>
 
-            <section class="card">
+            <div class="work-scrolling">
+                <div>
+                    <button type="button" id="arrow-left" class="arrow"><-</button>
+                </div>
+                
+                <section class="card">
+    
+                    <a target="_blank" class="little-card card-effect" href="https://github.com/jacobrkovacs/challenge-2-portfolio">
+                        <section>
+                            <h3>Works TBC</h3>
+                            <figure>
+                                <img src="Assests/images/generic-image-placeholder.webp" alt="placeholder image" class="little-card-image">
+                            </figure>
+                        </section>
+                    </a>
+                    
+                    <a target="_blank" class="little-card card-effect" href="https://www.linkedin.com/in/jacob-kovacs-23aba8191/">
+                        <section>
+                            <h3>Works TBC</h3>
+                            <figure>
+                                <img src="Assests/images/generic-image-placeholder.webp" alt="placeholder image" class="little-card-image">
+                            </figure>
+                        </section>
+                    </a>
+                    
+                    <a target="_blank" class="little-card card-effect" href="https://www.linkedin.com/in/jacob-kovacs-23aba8191/">
+                        <section>
+                            <h3>Works TBC</h3>
+                            <figure>
+                                <img src="Assests/images/generic-image-placeholder.webp" alt="placeholder image" class="little-card-image">
+                            </figure>
+                        </section>
+                    </a>
+                    
+                </section>
+                
+                <section>
+                    <button type="button" id="arrow-right" class="arrow">-></button>
+                </section>
+                
+            </div>
 
-                <a target="_blank" class="little-card card-effect" href="https://github.com/jacobrkovacs/challenge-2-portfolio">
-                    <section>
-                        <h3>GitHub: jacobrkovacs</h3>
-                        <figure>
-                            <img src="Assests/images/GitHub-Mark.png" alt="Github logo" class="little-card-image">
-                        </figure>
-                    </section>
-                </a>
-                
-                <a target="_blank" class="little-card card-effect" href="https://www.linkedin.com/in/jacob-kovacs-23aba8191/">
-                    <section>
-                        <h3>LinkedIn</h3>
-                    </section>
-                </a>
-
-                <a target="_blank" class="little-card card-effect" href="https://www.linkedin.com/in/jacob-kovacs-23aba8191/">
-                    <section>
-                        <h3>LinkedIn</h3>
-                    </section>
-                </a>
-                
-            </section>
-                
-            </section>
+        </section>
 
         <section id="contact" class="contact">
+
             <h2 class="section-title">Contact Form</h2>
-            <form action="">
-                <p>
-                    <label for="Emal">Full Name:</label>
-                    <input type="text" placeholder="Full Name">
-                </p>
-                <p>
+
+            <form class="contact-form" action="">
+                
+                    <label for="Email">Full Name:</label>
+                    <input type="text" placeholder="Full Name" class="textbox">
+            
                     <label for="Name">Email:</label>
-                    <input type="text" placeholder="Email">
-                </p>
+                    <input type="text" placeholder="Email" class="textbox">
+                
+                    <label for="Comments">Comments:</label>
+                    <textarea name="Comments" placeholder="Please provide any feedback" cols="30" rows="10" class="textbox"></textarea>
+                
+                    <button type="button">Submit</button>
             </form>
+
         </section>
 
     </main>
 
     <footer>
+        <a target="_blank" href="https://github.com/jacobrkovacs">
+            <img src="Assests/images/GitHub-Mark.png" alt="GitHub logo">
+        </a>
 
+        <a target="_blank" href="http://www.linkedin.com/in/jacob-kovacs-23aba8191">
+            <img src="Assests/images/linkedin.png" alt="LinkedIn logo">
+        </a>
     </footer>
 
 </body>
