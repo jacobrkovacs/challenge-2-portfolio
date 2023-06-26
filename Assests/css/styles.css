@@ -195,6 +195,12 @@ main{
     transition: all 0.25s ease-in-out;
 }
 
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 1175px){
     .main-header{
         height: 110px;
