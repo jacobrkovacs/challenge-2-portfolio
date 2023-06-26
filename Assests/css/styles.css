@@ -1,3 +1,4 @@
+/* added variables for colors to make changing palette easier*/
 :root{
     --dark: #0D1F2D;
     --dark-gray: #546A7B;
@@ -70,7 +71,6 @@ main{
     width: 15%;
     color: var(--dark);
     border-right: 3px solid var(--dark);
-
 }
 
 .about{
@@ -245,7 +245,7 @@ main{
     display: flex;
     flex-direction: column;
     line-height: 150%;
-    margin-left: 30%;
+    margin-left: 5%;
 }
 
 .textbox{
