@@ -192,7 +192,7 @@ main{
 
 .little-card-image{
     height: 80px;
-    width: 80px;
+    min-width: 80px;
     background: none;
     border-radius: 50%;
 }
